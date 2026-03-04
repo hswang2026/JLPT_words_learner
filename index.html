@@ -4,25 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>JLPT Vocabulary Learner</title>
-    
-    <base href="/JLPT_words_learner/">
+
+    <base href="/JLPT_words_learner/" />
 
     <script>
-      // Force the app to treat the current folder as the "Home" base
+      // Handle GitHub Pages SPA redirect from 404.html
       (function() {
-        const repoPath = "/JLPT_words_learner/";
-        if (window.location.pathname.includes('JLPT_words_learner')) {
-            window.history.replaceState(null, '', window.location.pathname);
+        const redirect = sessionStorage.getItem('spa-redirect');
+        if (redirect) {
+          sessionStorage.removeItem('spa-redirect');
+          window.history.replaceState(null, '', redirect);
         }
-        
-        // Fix the database fetching
-        const _fetch = window.fetch;
-        window.fetch = function() {
-          if (typeof arguments[0] === 'string' && arguments[0].startsWith('/')) {
-              arguments[0] = arguments[0].replace(/^\//, '');
-          }
-          return _fetch.apply(this, arguments);
-        };
       })();
     </script>
 
