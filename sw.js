@@ -1,5 +1,5 @@
-const CACHE_NAME = 'jlpt-v4-final';
-const ASSETS = [
+const CACHE_NAME = 'jlpt-v5-final';
+const ASSETS_TO_CACHE = [
   './',
   'index.html',
   'manifest.json',
@@ -8,20 +8,24 @@ const ASSETS = [
   'index-B6ykaXxV.css'
 ];
 
-self.addEventListener('install', (e) => {
+self.addEventListener('install', (event) => {
   self.skipWaiting();
-  e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
+  );
 });
 
-self.addEventListener('activate', (e) => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k)))));
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => Promise.all(
+      keys.map((k) => k !== CACHE_NAME && caches.delete(k))
+    ))
+  );
 });
 
-self.addEventListener('fetch', (e) => {
-  // Only handle GET requests and avoid local chrome extensions
-  if (e.request.method !== 'GET' || !e.request.url.startsWith('http')) return;
-  
-  e.respondWith(
-    caches.match(e.request).then(res => res || fetch(e.request))
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) return;
+  event.respondWith(
+    caches.match(event.request).then((res) => res || fetch(event.request))
   );
 });
