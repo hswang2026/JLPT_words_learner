@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🇯🇵 Japanese Vocab Master</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+    body { font-family: 'Noto Sans JP', system-ui, sans-serif; touch-action: manipulation; }
+    a, button { cursor: pointer !important; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+    .card-flip { transition: transform 0.6s; transform-style: preserve-3d; }
+    .card-flip.flipped { transform: rotateY(180deg); }
+    .front, .back { backface-visibility: hidden; }
+    .back { transform: rotateY(180deg); }
+  </style>
+</head>
+<body class="bg-gray-950 text-white min-h-screen">
+  <div class="max-w-6xl mx-auto p-4 sm:p-6">
+    <header class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
+      <div class="flex items-center gap-3">
+        <span class="text-5xl">🇯🇵</span>
+        <h1 class="text-3xl font-bold">Japanese Vocab Master</h1>
+      </div>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <a href="#" onclick="showTab(0); return false;" class="px-6 py-3 rounded-2xl bg-red-600 hover:bg-red-700 text-lg font-medium">📖 Dictionary</a>
+        <a href="#" onclick="showTab(1); return false;" class="px-6 py-3 rounded-2xl bg-red-600 hover:bg-red-700 text-lg font-medium">🃏 Flashcards</a>
+        <a href="#" onclick="showTab(2); return false;" class="px-6 py-3 rounded-2xl bg-red-600 hover:bg-red-700 text-lg font-medium">❓ Quiz</a>
+        <a href="#" onclick="showTab(3); return false;" class="px-6 py-3 rounded-2xl bg-red-600 hover:bg-red-700 text-lg font-medium">➕ Add/Import</a>
+      </div>
+    </header>
+
+```
+<!-- DICTIONARY TAB -->
+<div id="tab-0" class="tab">
+  <div class="flex flex-col sm:flex-row gap-4 mb-6">
+    <input id="search" onkeyup="filterVocab()" placeholder="Search words..." class="flex-1 bg-gray-900 border border-gray-700 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:border-red-500" />
+    <select id="levelFilter" onchange="filterVocab()" class="bg-gray-900 border border-gray-700 rounded-2xl px-6 py-4 text-lg">
+      <option value="">All Levels</option>
+      <option value="N5">N5</option>
+      <option value="N4">N4</option>
+      <option value="N3">N3</option>
+      <option value="N2">N2</option>
+      <option value="N1">N1</option>
+      <option value="Custom">Custom / Imported</option>
+    </select>
+  </div>
+  <div id="vocabList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+</div>
+
+<!-- FLASHCARDS TAB -->
+<div id="tab-1" class="tab hidden">
+  <div class="flex flex-col sm:flex-row justify-between mb-6 gap-4">
+    <a href="#" onclick="startFlashcards(); return false;" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-2xl font-semibold text-lg text-center block">Start New Deck</a>
+    <div class="text-xl font-medium self-center" id="cardCounter">0 / 0</div>
+  </div>
+  <div onclick="flipCard()" id="flashcard" class="card-flip mx-auto max-w-md h-80 bg-gradient-to-br from-red-900 to-rose-900 rounded-3xl shadow-2xl flex items-center justify-center text-center cursor-pointer relative">
+    <div class="front absolute w-full h-full flex flex-col items-center justify-center p-10">
+      <div id="frontJp" class="text-6xl font-bold mb-4"></div>
+      <div id="frontRomaji" class="text-2xl text-gray-300"></div>
+    </div>
+    <div class="back absolute w-full h-full flex flex-col items-center justify-center p-10">
+      <div id="backEng" class="text-4xl font-semibold"></div>
+    </div>
+  </div>
+  <div class="flex justify-center gap-6 mt-10 flex-wrap">
+    <a href="#" onclick="speakCurrent(); return false;" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-2xl">Speak <i class="fas fa-volume-up"></i></a>
+    <a href="#" onclick="nextCard(true); return false;" class="bg-emerald-600 hover:bg-emerald-700 px-8 py-3 rounded-2xl font-semibold">I know it ✓</a>
+    <a href="#" onclick="nextCard(false); return false;" class="bg-amber-600 hover:bg-amber-700 px-8 py-3 rounded-2xl font-semibold">Review later</a>
+  </div>
+</div>
+
+<!-- QUIZ TAB placeholder -->
+<div id="tab-2" class="tab hidden">
+  <div class="text-center">
+    <a href="#" onclick="alert('Quiz starting...'); return false;" class="bg-violet-600 hover:bg-violet-700 text-2xl px-12 py-6 rounded-3xl font-bold">Start 10-Question Quiz</a>
+  </div>
+</div>
+
+<!-- ADD / IMPORT TAB -->
+<div id="tab-3" class="tab hidden">
+  <div class="max-w-xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Add New Word</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <input id="addJp" placeholder="Japanese (会う)" class="bg-gray-900 border border-gray-700 rounded-2xl px-6 py-5" />
+      <input id="addRomaji" placeholder="Romaji (au)" class="bg-gray-900 border border-gray-700 rounded-2xl px-6 py-5" />
+      <input id="addEng" placeholder="English (to meet)" class="bg-gray-900 border border-gray-700 rounded-2xl px-6 py-5" />
+    </div>
+    <a href="#" onclick="addCustomWord(); return false;" class="mt-6 w-full bg-emerald-600 hover:bg-emerald-700 py-5 rounded-2xl font-bold text-xl block text-center">Add Word</a>
+
+    <div class="my-12 border-t border-gray-700"></div>
+
+    <h2 class="text-2xl font-bold mb-4">Import Full JLPT List</h2>
+    <p class="text-gray-400 mb-4">Tap link → Share → Print → zoom out → long-press → drag-select all → Copy → paste below</p>
+    <ul class="space-y-2 text-blue-400 mb-6">
+      <li><a href="https://raw.githubusercontent.com/elzup/jlpt-word-list/master/src/n5.csv" target="_blank" class="hover:underline">N5 Full List (~800 words)</a></li>
+      <li><a href="https://raw.githubusercontent.com/elzup/jlpt-word-list/master/src/n4.csv" target="_blank" class="hover:underline">N4 Full List</a></li>
+      <li><a href="https://raw.githubusercontent.com/elzup/jlpt-word-list/master/src/n3.csv" target="_blank" class="hover:underline">N3 Full List</a></li>
+      <li><a href="https://raw.githubusercontent.com/elzup/jlpt-word-list/master/src/n2.csv" target="_blank" class="hover:underline">N2 Full List (~1,700–2,000 words)</a></li>
+      <li><a href="https://raw.githubusercontent.com/elzup/jlpt-word-list/master/src/n1.csv" target="_blank" class="hover:underline">N1 Full List (~3,000–4,000 words)</a></li>
+    </ul>
+
+    <h3 class="text-xl font-bold mb-2 mt-6">Or fetch directly from URL (easier, needs internet)</h3>
+    <input id="fetchUrl" placeholder="Paste raw URL here (e.g. N5 link)" class="w-full bg-gray-900 border border-gray-700 rounded-2xl px-6 py-4 text-lg mb-4" />
+    <a href="#" onclick="fetchAndImport(); return false;" class="w-full bg-indigo-600 hover:bg-indigo-700 py-5 rounded-2xl font-bold text-xl block text-center mb-6">Fetch & Import from URL</a>
+
+    <textarea id="importData" placeholder="Paste CSV here..." class="w-full h-48 bg-gray-900 border border-gray-700 rounded-3xl p-6 font-mono text-sm"></textarea>
+    <!-- FIX 2: removed touchend listener, use onclick directly to prevent double-fire on mobile -->
+    <a href="#" onclick="importCSV(); return false;" class="mt-6 w-full bg-rose-600 hover:bg-rose-700 py-5 rounded-2xl font-bold text-xl cursor-pointer block text-center">Import & Merge (from textarea)</a>
+    <a href="#" onclick="exportCustom(); return false;" class="mt-3 w-full bg-gray-700 hover:bg-gray-600 py-4 rounded-2xl block text-center">Export my custom words (JSON)</a>
+  </div>
+</div>
+```
+
+  </div>
+
+  <script>
+    // FIX 1: corrected malformed starter vocab entries (level field was missing / wrongly set)
+    let vocab = [
+      {id:1,  level:"N5", jp:"こんにちは",           romaji:"konnichiwa",        eng:"hello"},
+      {id:2,  level:"N5", jp:"おはようございます",   romaji:"ohayou gozaimasu",  eng:"good morning"},
+      {id:3,  level:"N5", jp:"ありがとうございます", romaji:"arigatou gozaimasu",eng:"thank you"},
+      {id:4,  level:"N5", jp:"すみません",           romaji:"sumimasen",         eng:"excuse me / sorry"},
+      {id:5,  level:"N5", jp:"はい",                 romaji:"hai",               eng:"yes"},
+      {id:6,  level:"N5", jp:"いいえ",               romaji:"iie",               eng:"no"},
+      {id:7,  level:"N5", jp:"水",                   romaji:"mizu",              eng:"water"},
+      {id:8,  level:"N5", jp:"食べる",               romaji:"taberu",            eng:"to eat"},
+      {id:9,  level:"N5", jp:"日本",                 romaji:"nihon",             eng:"Japan"},
+      {id:10, level:"N5", jp:"名前",                 romaji:"namae",             eng:"name"}
+    ];
+
+    let customVocab = JSON.parse(localStorage.getItem('customVocab')) || [];
+    let allVocab = [...vocab, ...customVocab];
+
+    let currentDeck = [];
+    let currentCardIndex = 0;
+
+    function saveCustom() {
+      localStorage.setItem('customVocab', JSON.stringify(customVocab));
+      allVocab = [...vocab, ...customVocab];
+    }
+
+    function renderVocab(filtered) {
+      const container = document.getElementById('vocabList');
+      if (!container) return;
+      container.innerHTML = '';
+      if (filtered.length === 0) {
+        container.innerHTML = '<p class="text-gray-400 text-center py-10">No words match your search/filter. Add or import some!</p>';
+        return;
+      }
+      filtered.forEach(w => {
+        const div = document.createElement('div');
+        div.className = 'bg-gray-900 border border-gray-700 rounded-3xl p-6 hover:border-red-500 transition';
+        div.innerHTML = `
+          <div class="flex justify-between items-start">
+            <div>
+              <span class="text-4xl font-bold">${w.jp}</span>
+              <span class="ml-3 text-xl text-gray-400">${w.romaji || ''}</span>
+            </div>
+            <span class="text-xs px-3 py-1 bg-gray-800 rounded-full">${w.level}</span>
+          </div>
+          <div class="mt-4 text-2xl text-emerald-400">${w.eng}</div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function filterVocab() {
+      const searchInput = document.getElementById('search');
+      const levelSelect = document.getElementById('levelFilter');
+      const term = searchInput ? searchInput.value.trim().toLowerCase() : '';
+      const lvl = levelSelect ? levelSelect.value : '';
+      let filtered = allVocab.filter(w => {
+        const match = w.jp.toLowerCase().includes(term) ||
+                      (w.romaji || '').toLowerCase().includes(term) ||
+                      w.eng.toLowerCase().includes(term);
+        return match && (!lvl || w.level === lvl);
+      });
+      renderVocab(filtered);
+    }
+
+    function showTab(n) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.add('hidden'));
+      const tab = document.getElementById('tab-' + n);
+      if (tab) tab.classList.remove('hidden');
+      if (n === 0) {
+        // FIX 1: refresh dictionary immediately when switching to Dictionary tab
+        filterVocab();
+      }
+    }
+
+    function addCustomWord() {
+      const jpInput    = document.getElementById('addJp');
+      const romajiInput= document.getElementById('addRomaji');
+      const engInput   = document.getElementById('addEng');
+      const jp     = jpInput     ? jpInput.value.trim()     : '';
+      const romaji = romajiInput ? romajiInput.value.trim() : '';
+      const eng    = engInput    ? engInput.value.trim()    : '';
+      if (!jp || !eng) return alert("Japanese and English are required.");
+      customVocab.push({id: Date.now(), level:"Custom", jp, romaji, eng});
+      saveCustom();
+      // FIX 1: refresh dictionary immediately so the new word shows up
+      filterVocab();
+      alert("✅ Word added! Switch to the Dictionary tab to see it.");
+      if (jpInput)     jpInput.value     = '';
+      if (romajiInput) romajiInput.value = '';
+      if (engInput)    engInput.value    = '';
+    }
+
+    async function fetchAndImport() {
+      const urlInput = document.getElementById('fetchUrl');
+      const url = urlInput ? urlInput.value.trim() : '';
+      if (!url) return alert("Paste a raw GitHub URL first.");
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const text = await response.text();
+        document.getElementById('importData').value = text;
+        alert("✅ Fetched! Now tap 'Import & Merge' below to process.");
+      } catch (err) {
+        alert("Fetch error: " + err.message + "\nTry pasting the CSV manually.");
+      }
+    }
+
+    // FIX 2: importCSV is now called directly via onclick — no more double-firing from touchend+click
+    function importCSV() {
+      const textarea = document.getElementById('importData');
+      const text = textarea ? textarea.value.trim() : '';
+      if (!text) return alert("No text to import – paste or fetch first.");
+
+      const rows = text.split('\n').slice(1); // skip header row
+      let added = 0;
+      rows.forEach(row => {
+        if (!row.trim()) return;
+        const cols = row.split(',').map(c => c.trim().replace(/^"|"$/g, ''));
+        if (cols.length >= 3) {
+          const jp     = cols[0];
+          const romaji = cols[1] || '';
+          const eng    = cols[2];
+          if (jp && eng) {
+            customVocab.push({id: Date.now() + added, level:"Imported", jp, romaji, eng});
+            added++;
+          }
+        }
+      });
+
+      if (added > 0) {
+        saveCustom();
+        // FIX 2: clear textarea and show alert after successful import
+        if (textarea) textarea.value = '';
+        alert(`✅ Success! Imported ${added} words. Switch to the Dictionary tab to see them.`);
+        filterVocab();
+      } else {
+        alert("⚠️ No valid words found – check pasted text format (needs Japanese, reading, English columns).");
+      }
+    }
+
+    function exportCustom() {
+      const data = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(customVocab, null, 2));
+      const a = document.createElement('a');
+      a.href = data;
+      a.download = "my-japanese-words.json";
+      a.click();
+    }
+
+    // Flashcards
+    function startFlashcards() {
+      if (allVocab.length === 0) {
+        alert("No words yet! Add or import some.");
+        return;
+      }
+      currentDeck = [...allVocab].sort(() => Math.random() - 0.5);
+      currentCardIndex = 0;
+      document.getElementById('cardCounter').textContent = `1 / ${currentDeck.length}`;
+      showCard();
+    }
+
+    function showCard() {
+      if (currentDeck.length === 0) return;
+      const card = currentDeck[currentCardIndex];
+      document.getElementById('frontJp').textContent    = card.jp;
+      document.getElementById('frontRomaji').textContent= card.romaji || '';
+      document.getElementById('backEng').textContent    = card.eng;
+    }
+
+    function flipCard() {
+      document.getElementById('flashcard').classList.toggle('flipped');
+    }
+
+    function speakCurrent() {
+      if (currentDeck.length === 0) return;
+      const card = currentDeck[currentCardIndex];
+      const utterance = new SpeechSynthesisUtterance(card.jp);
+      utterance.lang = 'ja-JP';
+      speechSynthesis.speak(utterance);
+    }
+
+    function nextCard(knewIt) {
+      currentCardIndex++;
+      if (currentCardIndex >= currentDeck.length) {
+        alert("Deck finished!");
+        showTab(0);
+        return;
+      }
+      document.getElementById('cardCounter').textContent = `${currentCardIndex + 1} / ${currentDeck.length}`;
+      showCard();
+    }
+
+    // Init
+    document.addEventListener('DOMContentLoaded', () => {
+      showTab(0);
+      filterVocab();
+    });
+  </script>
+
+</body>
+</html>
