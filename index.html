@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>JLPT Vocabulary Learner</title>
+    
+    <base href="/JLPT_words_learner/">
+
+    <script>
+      // 1. ROUTING FIX: Prevents the initial 404
+      // If the URL doesn't end in a slash, GitHub Pages sometimes gets confused.
+      if (!window.location.pathname.endsWith('/') && !window.location.pathname.includes('.')) {
+          window.history.replaceState(null, '', window.location.pathname + '/');
+      }
+
+      // 2. FETCH FIX: Catch and fix broken JSON requests
+      const _orgFetch = window.fetch;
+      window.fetch = function() {
+        let url = arguments[0];
+        if (typeof url === 'string') {
+            // If the JS tries to fetch /vocabulary.json, redirect to the local file
+            if (url.startsWith('/vocabulary.json')) url = 'vocabulary.json';
+            if (url.startsWith('/vocab-database.json')) url = 'vocab-database.json';
+        }
+        arguments[0] = url;
+        return _orgFetch.apply(this, arguments);
+      };
+    </script>
+
+    <link rel="manifest" href="manifest.json" />
+    <script type="module" crossorigin src="index-ByyZV54e.js"></script>
+    <link rel="stylesheet" crossorigin href="index-B6ykaXxV.css">
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
