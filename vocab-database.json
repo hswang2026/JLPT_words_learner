@@ -1,0 +1,2135 @@
+{
+  "metadata": {
+    "title": "JLPT Vocabulary Database (Expanded)",
+    "description": "Comprehensive vocabulary for JLPT N1-N5 levels",
+    "version": "2.0.0",
+    "lastUpdated": "2026-02-27",
+    "totalWords": 301,
+    "levels": [
+      "N5",
+      "N4",
+      "N3",
+      "N2",
+      "N1"
+    ]
+  },
+  "vocabulary": {
+    "N5": [
+      {
+        "id": 1,
+        "kanji": "学校",
+        "hiragana": "がっこう",
+        "english": "school",
+        "level": "N5"
+      },
+      {
+        "id": 2,
+        "kanji": "先生",
+        "hiragana": "せんせい",
+        "english": "teacher",
+        "level": "N5"
+      },
+      {
+        "id": 3,
+        "kanji": "学生",
+        "hiragana": "がくせい",
+        "english": "student",
+        "level": "N5"
+      },
+      {
+        "id": 4,
+        "kanji": "本",
+        "hiragana": "ほん",
+        "english": "book",
+        "level": "N5"
+      },
+      {
+        "id": 5,
+        "kanji": "水",
+        "hiragana": "みず",
+        "english": "water",
+        "level": "N5"
+      },
+      {
+        "id": 6,
+        "kanji": "火",
+        "hiragana": "ひ",
+        "english": "fire",
+        "level": "N5"
+      },
+      {
+        "id": 7,
+        "kanji": "木",
+        "hiragana": "き",
+        "english": "tree",
+        "level": "N5"
+      },
+      {
+        "id": 8,
+        "kanji": "金",
+        "hiragana": "きん",
+        "english": "gold",
+        "level": "N5"
+      },
+      {
+        "id": 9,
+        "kanji": "土",
+        "hiragana": "つち",
+        "english": "earth",
+        "level": "N5"
+      },
+      {
+        "id": 10,
+        "kanji": "日",
+        "hiragana": "ひ",
+        "english": "day",
+        "level": "N5"
+      },
+      {
+        "id": 11,
+        "kanji": "月",
+        "hiragana": "つき",
+        "english": "moon",
+        "level": "N5"
+      },
+      {
+        "id": 12,
+        "kanji": "年",
+        "hiragana": "ねん",
+        "english": "year",
+        "level": "N5"
+      },
+      {
+        "id": 13,
+        "kanji": "時間",
+        "hiragana": "じかん",
+        "english": "time",
+        "level": "N5"
+      },
+      {
+        "id": 14,
+        "kanji": "朝",
+        "hiragana": "あさ",
+        "english": "morning",
+        "level": "N5"
+      },
+      {
+        "id": 15,
+        "kanji": "昼",
+        "hiragana": "ひる",
+        "english": "afternoon",
+        "level": "N5"
+      },
+      {
+        "id": 16,
+        "kanji": "夜",
+        "hiragana": "よる",
+        "english": "night",
+        "level": "N5"
+      },
+      {
+        "id": 17,
+        "kanji": "人",
+        "hiragana": "ひと",
+        "english": "person",
+        "level": "N5"
+      },
+      {
+        "id": 18,
+        "kanji": "男",
+        "hiragana": "おとこ",
+        "english": "man",
+        "level": "N5"
+      },
+      {
+        "id": 19,
+        "kanji": "女",
+        "hiragana": "おんな",
+        "english": "woman",
+        "level": "N5"
+      },
+      {
+        "id": 20,
+        "kanji": "子",
+        "hiragana": "こ",
+        "english": "child",
+        "level": "N5"
+      },
+      {
+        "id": 21,
+        "kanji": "親",
+        "hiragana": "おや",
+        "english": "parent",
+        "level": "N5"
+      },
+      {
+        "id": 22,
+        "kanji": "兄",
+        "hiragana": "あに",
+        "english": "older brother",
+        "level": "N5"
+      },
+      {
+        "id": 23,
+        "kanji": "姉",
+        "hiragana": "あね",
+        "english": "older sister",
+        "level": "N5"
+      },
+      {
+        "id": 24,
+        "kanji": "弟",
+        "hiragana": "おとうと",
+        "english": "younger brother",
+        "level": "N5"
+      },
+      {
+        "id": 25,
+        "kanji": "妹",
+        "hiragana": "いもうと",
+        "english": "younger sister",
+        "level": "N5"
+      },
+      {
+        "id": 26,
+        "kanji": "友達",
+        "hiragana": "ともだち",
+        "english": "friend",
+        "level": "N5"
+      },
+      {
+        "id": 27,
+        "kanji": "家",
+        "hiragana": "いえ",
+        "english": "house",
+        "level": "N5"
+      },
+      {
+        "id": 28,
+        "kanji": "部屋",
+        "hiragana": "へや",
+        "english": "room",
+        "level": "N5"
+      },
+      {
+        "id": 29,
+        "kanji": "台所",
+        "hiragana": "だいどころ",
+        "english": "kitchen",
+        "level": "N5"
+      },
+      {
+        "id": 30,
+        "kanji": "風呂",
+        "hiragana": "ふろ",
+        "english": "bath",
+        "level": "N5"
+      },
+      {
+        "id": 31,
+        "kanji": "寝室",
+        "hiragana": "しんしつ",
+        "english": "bedroom",
+        "level": "N5"
+      },
+      {
+        "id": 32,
+        "kanji": "リビング",
+        "hiragana": "りびんぐ",
+        "english": "living room",
+        "level": "N5"
+      },
+      {
+        "id": 33,
+        "kanji": "玄関",
+        "hiragana": "げんかん",
+        "english": "entrance",
+        "level": "N5"
+      },
+      {
+        "id": 34,
+        "kanji": "窓",
+        "hiragana": "まど",
+        "english": "window",
+        "level": "N5"
+      },
+      {
+        "id": 35,
+        "kanji": "扉",
+        "hiragana": "とびら",
+        "english": "door",
+        "level": "N5"
+      },
+      {
+        "id": 36,
+        "kanji": "食べ物",
+        "hiragana": "たべもの",
+        "english": "food",
+        "level": "N5"
+      },
+      {
+        "id": 37,
+        "kanji": "米",
+        "hiragana": "こめ",
+        "english": "rice",
+        "level": "N5"
+      },
+      {
+        "id": 38,
+        "kanji": "パン",
+        "hiragana": "ぱん",
+        "english": "bread",
+        "level": "N5"
+      },
+      {
+        "id": 39,
+        "kanji": "肉",
+        "hiragana": "にく",
+        "english": "meat",
+        "level": "N5"
+      },
+      {
+        "id": 40,
+        "kanji": "魚",
+        "hiragana": "さかな",
+        "english": "fish",
+        "level": "N5"
+      },
+      {
+        "id": 41,
+        "kanji": "野菜",
+        "hiragana": "やさい",
+        "english": "vegetable",
+        "level": "N5"
+      },
+      {
+        "id": 42,
+        "kanji": "果物",
+        "hiragana": "くだもの",
+        "english": "fruit",
+        "level": "N5"
+      },
+      {
+        "id": 43,
+        "kanji": "飲み物",
+        "hiragana": "のみもの",
+        "english": "beverage",
+        "level": "N5"
+      },
+      {
+        "id": 44,
+        "kanji": "牛乳",
+        "hiragana": "ぎゅうにゅう",
+        "english": "milk",
+        "level": "N5"
+      },
+      {
+        "id": 45,
+        "kanji": "コーヒー",
+        "hiragana": "こーひー",
+        "english": "coffee",
+        "level": "N5"
+      },
+      {
+        "id": 46,
+        "kanji": "紅茶",
+        "hiragana": "こうちゃ",
+        "english": "black tea",
+        "level": "N5"
+      },
+      {
+        "id": 47,
+        "kanji": "服",
+        "hiragana": "ふく",
+        "english": "clothes",
+        "level": "N5"
+      },
+      {
+        "id": 48,
+        "kanji": "靴",
+        "hiragana": "くつ",
+        "english": "shoes",
+        "level": "N5"
+      },
+      {
+        "id": 49,
+        "kanji": "帽子",
+        "hiragana": "ぼうし",
+        "english": "hat",
+        "level": "N5"
+      },
+      {
+        "id": 50,
+        "kanji": "傘",
+        "hiragana": "かさ",
+        "english": "umbrella",
+        "level": "N5"
+      },
+      {
+        "id": 51,
+        "kanji": "食べる",
+        "hiragana": "たべる",
+        "english": "to eat",
+        "level": "N5"
+      },
+      {
+        "id": 52,
+        "kanji": "飲む",
+        "hiragana": "のむ",
+        "english": "to drink",
+        "level": "N5"
+      },
+      {
+        "id": 53,
+        "kanji": "歩く",
+        "hiragana": "あるく",
+        "english": "to walk",
+        "level": "N5"
+      },
+      {
+        "id": 54,
+        "kanji": "走る",
+        "hiragana": "はしる",
+        "english": "to run",
+        "level": "N5"
+      },
+      {
+        "id": 55,
+        "kanji": "見る",
+        "hiragana": "みる",
+        "english": "to see",
+        "level": "N5"
+      },
+      {
+        "id": 56,
+        "kanji": "聞く",
+        "hiragana": "きく",
+        "english": "to listen",
+        "level": "N5"
+      },
+      {
+        "id": 57,
+        "kanji": "読む",
+        "hiragana": "よむ",
+        "english": "to read",
+        "level": "N5"
+      },
+      {
+        "id": 58,
+        "kanji": "書く",
+        "hiragana": "かく",
+        "english": "to write",
+        "level": "N5"
+      },
+      {
+        "id": 59,
+        "kanji": "話す",
+        "hiragana": "はなす",
+        "english": "to speak",
+        "level": "N5"
+      },
+      {
+        "id": 60,
+        "kanji": "寝る",
+        "hiragana": "ねる",
+        "english": "to sleep",
+        "level": "N5"
+      },
+      {
+        "id": 61,
+        "kanji": "起きる",
+        "hiragana": "おきる",
+        "english": "to wake up",
+        "level": "N5"
+      },
+      {
+        "id": 62,
+        "kanji": "座る",
+        "hiragana": "すわる",
+        "english": "to sit",
+        "level": "N5"
+      },
+      {
+        "id": 63,
+        "kanji": "立つ",
+        "hiragana": "たつ",
+        "english": "to stand",
+        "level": "N5"
+      },
+      {
+        "id": 64,
+        "kanji": "来る",
+        "hiragana": "くる",
+        "english": "to come",
+        "level": "N5"
+      },
+      {
+        "id": 65,
+        "kanji": "行く",
+        "hiragana": "いく",
+        "english": "to go",
+        "level": "N5"
+      },
+      {
+        "id": 66,
+        "kanji": "する",
+        "hiragana": "する",
+        "english": "to do",
+        "level": "N5"
+      },
+      {
+        "id": 67,
+        "kanji": "いる",
+        "hiragana": "いる",
+        "english": "to be (animate)",
+        "level": "N5"
+      },
+      {
+        "id": 68,
+        "kanji": "ある",
+        "hiragana": "ある",
+        "english": "to be (inanimate)",
+        "level": "N5"
+      },
+      {
+        "id": 69,
+        "kanji": "大きい",
+        "hiragana": "おおきい",
+        "english": "big",
+        "level": "N5"
+      },
+      {
+        "id": 70,
+        "kanji": "小さい",
+        "hiragana": "ちいさい",
+        "english": "small",
+        "level": "N5"
+      },
+      {
+        "id": 71,
+        "kanji": "新しい",
+        "hiragana": "あたらしい",
+        "english": "new",
+        "level": "N5"
+      },
+      {
+        "id": 72,
+        "kanji": "古い",
+        "hiragana": "ふるい",
+        "english": "old",
+        "level": "N5"
+      },
+      {
+        "id": 73,
+        "kanji": "長い",
+        "hiragana": "ながい",
+        "english": "long",
+        "level": "N5"
+      },
+      {
+        "id": 74,
+        "kanji": "短い",
+        "hiragana": "みじかい",
+        "english": "short",
+        "level": "N5"
+      },
+      {
+        "id": 75,
+        "kanji": "高い",
+        "hiragana": "たかい",
+        "english": "high",
+        "level": "N5"
+      },
+      {
+        "id": 76,
+        "kanji": "低い",
+        "hiragana": "ひくい",
+        "english": "low",
+        "level": "N5"
+      },
+      {
+        "id": 77,
+        "kanji": "美しい",
+        "hiragana": "うつくしい",
+        "english": "beautiful",
+        "level": "N5"
+      },
+      {
+        "id": 78,
+        "kanji": "醜い",
+        "hiragana": "みにくい",
+        "english": "ugly",
+        "level": "N5"
+      },
+      {
+        "id": 79,
+        "kanji": "赤",
+        "hiragana": "あか",
+        "english": "red",
+        "level": "N5"
+      },
+      {
+        "id": 80,
+        "kanji": "青",
+        "hiragana": "あお",
+        "english": "blue",
+        "level": "N5"
+      },
+      {
+        "id": 81,
+        "kanji": "黄色",
+        "hiragana": "きいろ",
+        "english": "yellow",
+        "level": "N5"
+      },
+      {
+        "id": 82,
+        "kanji": "緑",
+        "hiragana": "みどり",
+        "english": "green",
+        "level": "N5"
+      },
+      {
+        "id": 83,
+        "kanji": "白",
+        "hiragana": "しろ",
+        "english": "white",
+        "level": "N5"
+      },
+      {
+        "id": 84,
+        "kanji": "黒",
+        "hiragana": "くろ",
+        "english": "black",
+        "level": "N5"
+      },
+      {
+        "id": 85,
+        "kanji": "暑い",
+        "hiragana": "あつい",
+        "english": "hot",
+        "level": "N5"
+      },
+      {
+        "id": 86,
+        "kanji": "寒い",
+        "hiragana": "さむい",
+        "english": "cold",
+        "level": "N5"
+      },
+      {
+        "id": 87,
+        "kanji": "温かい",
+        "hiragana": "あたたかい",
+        "english": "warm",
+        "level": "N5"
+      },
+      {
+        "id": 88,
+        "kanji": "涼しい",
+        "hiragana": "すずしい",
+        "english": "cool",
+        "level": "N5"
+      }
+    ],
+    "N4": [
+      {
+        "id": 89,
+        "kanji": "意見",
+        "hiragana": "いけん",
+        "english": "opinion",
+        "level": "N4"
+      },
+      {
+        "id": 90,
+        "kanji": "一般",
+        "hiragana": "いっぱん",
+        "english": "general",
+        "level": "N4"
+      },
+      {
+        "id": 91,
+        "kanji": "印象",
+        "hiragana": "いんしょう",
+        "english": "impression",
+        "level": "N4"
+      },
+      {
+        "id": 92,
+        "kanji": "運動",
+        "hiragana": "うんどう",
+        "english": "exercise",
+        "level": "N4"
+      },
+      {
+        "id": 93,
+        "kanji": "栄養",
+        "hiragana": "えいよう",
+        "english": "nutrition",
+        "level": "N4"
+      },
+      {
+        "id": 94,
+        "kanji": "応募",
+        "hiragana": "おうぼ",
+        "english": "application",
+        "level": "N4"
+      },
+      {
+        "id": 95,
+        "kanji": "応援",
+        "hiragana": "おうえん",
+        "english": "support",
+        "level": "N4"
+      },
+      {
+        "id": 96,
+        "kanji": "開始",
+        "hiragana": "かいし",
+        "english": "start",
+        "level": "N4"
+      },
+      {
+        "id": 97,
+        "kanji": "開発",
+        "hiragana": "かいはつ",
+        "english": "development",
+        "level": "N4"
+      },
+      {
+        "id": 98,
+        "kanji": "改善",
+        "hiragana": "かいぜん",
+        "english": "improvement",
+        "level": "N4"
+      },
+      {
+        "id": 99,
+        "kanji": "概要",
+        "hiragana": "がいよう",
+        "english": "overview",
+        "level": "N4"
+      },
+      {
+        "id": 100,
+        "kanji": "環境",
+        "hiragana": "かんきょう",
+        "english": "environment",
+        "level": "N4"
+      },
+      {
+        "id": 101,
+        "kanji": "関心",
+        "hiragana": "かんしん",
+        "english": "interest",
+        "level": "N4"
+      },
+      {
+        "id": 102,
+        "kanji": "完全",
+        "hiragana": "かんぜん",
+        "english": "complete",
+        "level": "N4"
+      },
+      {
+        "id": 103,
+        "kanji": "機会",
+        "hiragana": "きかい",
+        "english": "opportunity",
+        "level": "N4"
+      },
+      {
+        "id": 104,
+        "kanji": "技術",
+        "hiragana": "ぎじゅつ",
+        "english": "technology",
+        "level": "N4"
+      },
+      {
+        "id": 105,
+        "kanji": "記者",
+        "hiragana": "きしゃ",
+        "english": "journalist",
+        "level": "N4"
+      },
+      {
+        "id": 106,
+        "kanji": "記録",
+        "hiragana": "きろく",
+        "english": "record",
+        "level": "N4"
+      },
+      {
+        "id": 107,
+        "kanji": "緊急",
+        "hiragana": "きんきゅう",
+        "english": "emergency",
+        "level": "N4"
+      },
+      {
+        "id": 108,
+        "kanji": "金銭",
+        "hiragana": "きんせん",
+        "english": "money",
+        "level": "N4"
+      },
+      {
+        "id": 109,
+        "kanji": "空気",
+        "hiragana": "くうき",
+        "english": "air",
+        "level": "N4"
+      },
+      {
+        "id": 110,
+        "kanji": "区別",
+        "hiragana": "くべつ",
+        "english": "distinction",
+        "level": "N4"
+      },
+      {
+        "id": 111,
+        "kanji": "軍",
+        "hiragana": "ぐん",
+        "english": "army",
+        "level": "N4"
+      },
+      {
+        "id": 112,
+        "kanji": "経営",
+        "hiragana": "けいえい",
+        "english": "management",
+        "level": "N4"
+      },
+      {
+        "id": 113,
+        "kanji": "経験",
+        "hiragana": "けいけん",
+        "english": "experience",
+        "level": "N4"
+      },
+      {
+        "id": 114,
+        "kanji": "経済",
+        "hiragana": "けいざい",
+        "english": "economy",
+        "level": "N4"
+      },
+      {
+        "id": 115,
+        "kanji": "警察",
+        "hiragana": "けいさつ",
+        "english": "police",
+        "level": "N4"
+      },
+      {
+        "id": 116,
+        "kanji": "計画",
+        "hiragana": "けいかく",
+        "english": "plan",
+        "level": "N4"
+      },
+      {
+        "id": 117,
+        "kanji": "結果",
+        "hiragana": "けっか",
+        "english": "result",
+        "level": "N4"
+      },
+      {
+        "id": 118,
+        "kanji": "結婚",
+        "hiragana": "けっこん",
+        "english": "marriage",
+        "level": "N4"
+      },
+      {
+        "id": 119,
+        "kanji": "健康",
+        "hiragana": "けんこう",
+        "english": "health",
+        "level": "N4"
+      },
+      {
+        "id": 120,
+        "kanji": "研究",
+        "hiragana": "けんきゅう",
+        "english": "research",
+        "level": "N4"
+      },
+      {
+        "id": 121,
+        "kanji": "権利",
+        "hiragana": "けんり",
+        "english": "right",
+        "level": "N4"
+      },
+      {
+        "id": 122,
+        "kanji": "現在",
+        "hiragana": "げんざい",
+        "english": "present",
+        "level": "N4"
+      },
+      {
+        "id": 123,
+        "kanji": "現象",
+        "hiragana": "げんしょう",
+        "english": "phenomenon",
+        "level": "N4"
+      },
+      {
+        "id": 124,
+        "kanji": "公開",
+        "hiragana": "こうかい",
+        "english": "public",
+        "level": "N4"
+      },
+      {
+        "id": 125,
+        "kanji": "公共",
+        "hiragana": "こうきょう",
+        "english": "public",
+        "level": "N4"
+      },
+      {
+        "id": 126,
+        "kanji": "工業",
+        "hiragana": "こうぎょう",
+        "english": "industry",
+        "level": "N4"
+      },
+      {
+        "id": 127,
+        "kanji": "高度",
+        "hiragana": "こうど",
+        "english": "altitude",
+        "level": "N4"
+      },
+      {
+        "id": 128,
+        "kanji": "国家",
+        "hiragana": "こっか",
+        "english": "nation",
+        "level": "N4"
+      },
+      {
+        "id": 129,
+        "kanji": "国際",
+        "hiragana": "こくさい",
+        "english": "international",
+        "level": "N4"
+      },
+      {
+        "id": 130,
+        "kanji": "国民",
+        "hiragana": "こくみん",
+        "english": "citizen",
+        "level": "N4"
+      },
+      {
+        "id": 131,
+        "kanji": "根拠",
+        "hiragana": "こんきょ",
+        "english": "basis",
+        "level": "N4"
+      },
+      {
+        "id": 132,
+        "kanji": "困難",
+        "hiragana": "こんなん",
+        "english": "difficulty",
+        "level": "N4"
+      },
+      {
+        "id": 133,
+        "kanji": "最近",
+        "hiragana": "さいきん",
+        "english": "recently",
+        "level": "N4"
+      },
+      {
+        "id": 134,
+        "kanji": "最高",
+        "hiragana": "さいこう",
+        "english": "highest",
+        "level": "N4"
+      },
+      {
+        "id": 135,
+        "kanji": "最低",
+        "hiragana": "さいてい",
+        "english": "lowest",
+        "level": "N4"
+      },
+      {
+        "id": 136,
+        "kanji": "才能",
+        "hiragana": "さいのう",
+        "english": "talent",
+        "level": "N4"
+      },
+      {
+        "id": 137,
+        "kanji": "財産",
+        "hiragana": "ざいさん",
+        "english": "property",
+        "level": "N4"
+      },
+      {
+        "id": 138,
+        "kanji": "作品",
+        "hiragana": "さくひん",
+        "english": "work",
+        "level": "N4"
+      },
+      {
+        "id": 139,
+        "kanji": "作成",
+        "hiragana": "さくせい",
+        "english": "creation",
+        "level": "N4"
+      },
+      {
+        "id": 140,
+        "kanji": "産業",
+        "hiragana": "さんぎょう",
+        "english": "industry",
+        "level": "N4"
+      },
+      {
+        "id": 141,
+        "kanji": "参加",
+        "hiragana": "さんか",
+        "english": "participation",
+        "level": "N4"
+      },
+      {
+        "id": 142,
+        "kanji": "参考",
+        "hiragana": "さんこう",
+        "english": "reference",
+        "level": "N4"
+      },
+      {
+        "id": 143,
+        "kanji": "残念",
+        "hiragana": "ざんねん",
+        "english": "regrettable",
+        "level": "N4"
+      },
+      {
+        "id": 144,
+        "kanji": "試験",
+        "hiragana": "しけん",
+        "english": "exam",
+        "level": "N4"
+      },
+      {
+        "id": 145,
+        "kanji": "塩",
+        "hiragana": "しお",
+        "english": "salt",
+        "level": "N4"
+      },
+      {
+        "id": 146,
+        "kanji": "塩辛い",
+        "hiragana": "しおからい",
+        "english": "salty",
+        "level": "N4"
+      },
+      {
+        "id": 147,
+        "kanji": "指標",
+        "hiragana": "しひょう",
+        "english": "indicator",
+        "level": "N4"
+      },
+      {
+        "id": 148,
+        "kanji": "支援",
+        "hiragana": "しえん",
+        "english": "support",
+        "level": "N4"
+      },
+      {
+        "id": 149,
+        "kanji": "支配",
+        "hiragana": "しはい",
+        "english": "control",
+        "level": "N4"
+      },
+      {
+        "id": 150,
+        "kanji": "事件",
+        "hiragana": "じけん",
+        "english": "incident",
+        "level": "N4"
+      },
+      {
+        "id": 151,
+        "kanji": "事実",
+        "hiragana": "じじつ",
+        "english": "fact",
+        "level": "N4"
+      },
+      {
+        "id": 152,
+        "kanji": "事業",
+        "hiragana": "じぎょう",
+        "english": "business",
+        "level": "N4"
+      },
+      {
+        "id": 153,
+        "kanji": "塾",
+        "hiragana": "じゅく",
+        "english": "cram school",
+        "level": "N4"
+      },
+      {
+        "id": 154,
+        "kanji": "住宅",
+        "hiragana": "じゅうたく",
+        "english": "residence",
+        "level": "N4"
+      },
+      {
+        "id": 155,
+        "kanji": "住民",
+        "hiragana": "じゅうみん",
+        "english": "resident",
+        "level": "N4"
+      },
+      {
+        "id": 156,
+        "kanji": "重要",
+        "hiragana": "じゅうよう",
+        "english": "important",
+        "level": "N4"
+      },
+      {
+        "id": 157,
+        "kanji": "柔軟",
+        "hiragana": "じゅうなん",
+        "english": "flexible",
+        "level": "N4"
+      },
+      {
+        "id": 158,
+        "kanji": "出身",
+        "hiragana": "しゅっしん",
+        "english": "origin",
+        "level": "N4"
+      },
+      {
+        "id": 159,
+        "kanji": "出版",
+        "hiragana": "しゅっぱん",
+        "english": "publication",
+        "level": "N4"
+      },
+      {
+        "id": 160,
+        "kanji": "出現",
+        "hiragana": "しゅつげん",
+        "english": "appearance",
+        "level": "N4"
+      },
+      {
+        "id": 161,
+        "kanji": "出発",
+        "hiragana": "しゅっぱつ",
+        "english": "departure",
+        "level": "N4"
+      },
+      {
+        "id": 162,
+        "kanji": "出席",
+        "hiragana": "しゅっせき",
+        "english": "attendance",
+        "level": "N4"
+      },
+      {
+        "id": 163,
+        "kanji": "出来事",
+        "hiragana": "できごと",
+        "english": "event",
+        "level": "N4"
+      },
+      {
+        "id": 164,
+        "kanji": "出費",
+        "hiragana": "しゅっぴ",
+        "english": "expense",
+        "level": "N4"
+      },
+      {
+        "id": 165,
+        "kanji": "出荷",
+        "hiragana": "しゅっか",
+        "english": "shipment",
+        "level": "N4"
+      },
+      {
+        "id": 166,
+        "kanji": "出国",
+        "hiragana": "しゅっこく",
+        "english": "departure from country",
+        "level": "N4"
+      }
+    ],
+    "N3": [
+      {
+        "id": 167,
+        "kanji": "相応",
+        "hiragana": "そうおう",
+        "english": "appropriate",
+        "level": "N3"
+      },
+      {
+        "id": 168,
+        "kanji": "相互",
+        "hiragana": "そうご",
+        "english": "mutual",
+        "level": "N3"
+      },
+      {
+        "id": 169,
+        "kanji": "相談",
+        "hiragana": "そうだん",
+        "english": "consultation",
+        "level": "N3"
+      },
+      {
+        "id": 170,
+        "kanji": "総合",
+        "hiragana": "そうごう",
+        "english": "comprehensive",
+        "level": "N3"
+      },
+      {
+        "id": 171,
+        "kanji": "総務",
+        "hiragana": "そうむ",
+        "english": "general affairs",
+        "level": "N3"
+      },
+      {
+        "id": 172,
+        "kanji": "創造",
+        "hiragana": "そうぞう",
+        "english": "creation",
+        "level": "N3"
+      },
+      {
+        "id": 173,
+        "kanji": "捜査",
+        "hiragana": "そうさ",
+        "english": "investigation",
+        "level": "N3"
+      },
+      {
+        "id": 174,
+        "kanji": "装備",
+        "hiragana": "そうび",
+        "english": "equipment",
+        "level": "N3"
+      },
+      {
+        "id": 175,
+        "kanji": "装置",
+        "hiragana": "そうち",
+        "english": "device",
+        "level": "N3"
+      },
+      {
+        "id": 176,
+        "kanji": "双方",
+        "hiragana": "そうほう",
+        "english": "both sides",
+        "level": "N3"
+      },
+      {
+        "id": 177,
+        "kanji": "騒音",
+        "hiragana": "そうおん",
+        "english": "noise",
+        "level": "N3"
+      },
+      {
+        "id": 178,
+        "kanji": "増加",
+        "hiragana": "ぞうか",
+        "english": "increase",
+        "level": "N3"
+      },
+      {
+        "id": 179,
+        "kanji": "増殖",
+        "hiragana": "ぞうしょく",
+        "english": "proliferation",
+        "level": "N3"
+      },
+      {
+        "id": 180,
+        "kanji": "造成",
+        "hiragana": "ぞうせい",
+        "english": "construction",
+        "level": "N3"
+      },
+      {
+        "id": 181,
+        "kanji": "造船",
+        "hiragana": "ぞうせん",
+        "english": "shipbuilding",
+        "level": "N3"
+      },
+      {
+        "id": 182,
+        "kanji": "造詣",
+        "hiragana": "ぞうけい",
+        "english": "expertise",
+        "level": "N3"
+      },
+      {
+        "id": 183,
+        "kanji": "造語",
+        "hiragana": "ぞうご",
+        "english": "neologism",
+        "level": "N3"
+      },
+      {
+        "id": 184,
+        "kanji": "足りる",
+        "hiragana": "たりる",
+        "english": "to be sufficient",
+        "level": "N3"
+      },
+      {
+        "id": 185,
+        "kanji": "多様",
+        "hiragana": "たよう",
+        "english": "diverse",
+        "level": "N3"
+      },
+      {
+        "id": 186,
+        "kanji": "多数",
+        "hiragana": "たすう",
+        "english": "majority",
+        "level": "N3"
+      },
+      {
+        "id": 187,
+        "kanji": "多忙",
+        "hiragana": "たぼう",
+        "english": "busy",
+        "level": "N3"
+      },
+      {
+        "id": 188,
+        "kanji": "多面",
+        "hiragana": "ためん",
+        "english": "multifaceted",
+        "level": "N3"
+      },
+      {
+        "id": 189,
+        "kanji": "打開",
+        "hiragana": "だかい",
+        "english": "breakthrough",
+        "level": "N3"
+      },
+      {
+        "id": 190,
+        "kanji": "打撃",
+        "hiragana": "だげき",
+        "english": "blow",
+        "level": "N3"
+      },
+      {
+        "id": 191,
+        "kanji": "打消",
+        "hiragana": "うちけし",
+        "english": "negation",
+        "level": "N3"
+      },
+      {
+        "id": 192,
+        "kanji": "打倒",
+        "hiragana": "だとう",
+        "english": "overthrow",
+        "level": "N3"
+      },
+      {
+        "id": 193,
+        "kanji": "打ち合わせ",
+        "hiragana": "うちあわせ",
+        "english": "meeting",
+        "level": "N3"
+      },
+      {
+        "id": 194,
+        "kanji": "打ち込む",
+        "hiragana": "ぶちこむ",
+        "english": "to drive in",
+        "level": "N3"
+      },
+      {
+        "id": 195,
+        "kanji": "打ち出す",
+        "hiragana": "うちだす",
+        "english": "to launch",
+        "level": "N3"
+      },
+      {
+        "id": 196,
+        "kanji": "打ち明ける",
+        "hiragana": "うちあける",
+        "english": "to confess",
+        "level": "N3"
+      },
+      {
+        "id": 197,
+        "kanji": "打ち消す",
+        "hiragana": "うちけす",
+        "english": "to cancel",
+        "level": "N3"
+      },
+      {
+        "id": 198,
+        "kanji": "打ち続ける",
+        "hiragana": "うちつづける",
+        "english": "to continue",
+        "level": "N3"
+      },
+      {
+        "id": 199,
+        "kanji": "打ち破る",
+        "hiragana": "うちやぶる",
+        "english": "to break through",
+        "level": "N3"
+      },
+      {
+        "id": 200,
+        "kanji": "打ち負かす",
+        "hiragana": "うちまかす",
+        "english": "to defeat",
+        "level": "N3"
+      },
+      {
+        "id": 201,
+        "kanji": "打ち払う",
+        "hiragana": "うちはらう",
+        "english": "to brush off",
+        "level": "N3"
+      },
+      {
+        "id": 202,
+        "kanji": "打ち返す",
+        "hiragana": "うちかえす",
+        "english": "to return",
+        "level": "N3"
+      },
+      {
+        "id": 203,
+        "kanji": "打ち振る",
+        "hiragana": "うちふる",
+        "english": "to wave",
+        "level": "N3"
+      },
+      {
+        "id": 204,
+        "kanji": "打ち分ける",
+        "hiragana": "うちわける",
+        "english": "to distinguish",
+        "level": "N3"
+      },
+      {
+        "id": 205,
+        "kanji": "打ち忘れる",
+        "hiragana": "うちわすれる",
+        "english": "to forget",
+        "level": "N3"
+      },
+      {
+        "id": 206,
+        "kanji": "打ち止める",
+        "hiragana": "うちやめる",
+        "english": "to stop",
+        "level": "N3"
+      },
+      {
+        "id": 207,
+        "kanji": "打ち揺する",
+        "hiragana": "うちゆする",
+        "english": "to shake",
+        "level": "N3"
+      },
+      {
+        "id": 208,
+        "kanji": "打ち揺らぐ",
+        "hiragana": "うちゆらぐ",
+        "english": "to waver",
+        "level": "N3"
+      },
+      {
+        "id": 209,
+        "kanji": "打ち寄せる",
+        "hiragana": "うちよせる",
+        "english": "to wash ashore",
+        "level": "N3"
+      },
+      {
+        "id": 210,
+        "kanji": "打ち寄る",
+        "hiragana": "うちよる",
+        "english": "to gather",
+        "level": "N3"
+      },
+      {
+        "id": 211,
+        "kanji": "打ち落とす",
+        "hiragana": "うちおとす",
+        "english": "to knock down",
+        "level": "N3"
+      },
+      {
+        "id": 212,
+        "kanji": "打ち忘れ",
+        "hiragana": "うちわすれ",
+        "english": "oversight",
+        "level": "N3"
+      },
+      {
+        "id": 213,
+        "kanji": "打ち忘れる",
+        "hiragana": "うちわすれる",
+        "english": "to forget",
+        "level": "N3"
+      },
+      {
+        "id": 214,
+        "kanji": "抽象",
+        "hiragana": "ちゅうしょう",
+        "english": "abstraction",
+        "level": "N3"
+      },
+      {
+        "id": 215,
+        "kanji": "抽出",
+        "hiragana": "ちゅうしゅつ",
+        "english": "extraction",
+        "level": "N3"
+      },
+      {
+        "id": 216,
+        "kanji": "抽選",
+        "hiragana": "ちゅうせん",
+        "english": "lottery",
+        "level": "N3"
+      },
+      {
+        "id": 217,
+        "kanji": "抽象的",
+        "hiragana": "ちゅうしょうてき",
+        "english": "abstract",
+        "level": "N3"
+      },
+      {
+        "id": 218,
+        "kanji": "中央",
+        "hiragana": "ちゅうおう",
+        "english": "center",
+        "level": "N3"
+      },
+      {
+        "id": 219,
+        "kanji": "中核",
+        "hiragana": "ちゅうかく",
+        "english": "core",
+        "level": "N3"
+      },
+      {
+        "id": 220,
+        "kanji": "中国",
+        "hiragana": "ちゅうごく",
+        "english": "China",
+        "level": "N3"
+      },
+      {
+        "id": 221,
+        "kanji": "中継",
+        "hiragana": "ちゅうけい",
+        "english": "relay",
+        "level": "N3"
+      },
+      {
+        "id": 222,
+        "kanji": "中古",
+        "hiragana": "ちゅうこ",
+        "english": "secondhand",
+        "level": "N3"
+      },
+      {
+        "id": 223,
+        "kanji": "中止",
+        "hiragana": "ちゅうし",
+        "english": "cancellation",
+        "level": "N3"
+      },
+      {
+        "id": 224,
+        "kanji": "中身",
+        "hiragana": "なかみ",
+        "english": "contents",
+        "level": "N3"
+      },
+      {
+        "id": 225,
+        "kanji": "中性",
+        "hiragana": "ちゅうせい",
+        "english": "neutrality",
+        "level": "N3"
+      },
+      {
+        "id": 226,
+        "kanji": "中世",
+        "hiragana": "ちゅうせい",
+        "english": "Middle Ages",
+        "level": "N3"
+      },
+      {
+        "id": 227,
+        "kanji": "中断",
+        "hiragana": "ちゅうだん",
+        "english": "interruption",
+        "level": "N3"
+      }
+    ],
+    "N2": [
+      {
+        "id": 228,
+        "kanji": "圧倒",
+        "hiragana": "あっとう",
+        "english": "overwhelm",
+        "level": "N2"
+      },
+      {
+        "id": 229,
+        "kanji": "圧力",
+        "hiragana": "あつりょく",
+        "english": "pressure",
+        "level": "N2"
+      },
+      {
+        "id": 230,
+        "kanji": "圧縮",
+        "hiragana": "あっしゅく",
+        "english": "compression",
+        "level": "N2"
+      },
+      {
+        "id": 231,
+        "kanji": "圧迫",
+        "hiragana": "あっぱく",
+        "english": "oppression",
+        "level": "N2"
+      },
+      {
+        "id": 232,
+        "kanji": "圧制",
+        "hiragana": "あっせい",
+        "english": "tyranny",
+        "level": "N2"
+      },
+      {
+        "id": 233,
+        "kanji": "圧勝",
+        "hiragana": "あっしょう",
+        "english": "overwhelming victory",
+        "level": "N2"
+      },
+      {
+        "id": 234,
+        "kanji": "圧搾",
+        "hiragana": "あっさく",
+        "english": "pressing",
+        "level": "N2"
+      },
+      {
+        "id": 235,
+        "kanji": "圧搾機",
+        "hiragana": "あっさくき",
+        "english": "press",
+        "level": "N2"
+      },
+      {
+        "id": 236,
+        "kanji": "圧搾油",
+        "hiragana": "あっさくゆ",
+        "english": "pressed oil",
+        "level": "N2"
+      },
+      {
+        "id": 237,
+        "kanji": "圧搾絞り",
+        "hiragana": "あっさくしぼり",
+        "english": "pressing",
+        "level": "N2"
+      },
+      {
+        "id": 238,
+        "kanji": "圧搾搾油",
+        "hiragana": "あっさくさくゆ",
+        "english": "pressing oil",
+        "level": "N2"
+      },
+      {
+        "id": 239,
+        "kanji": "圧搾搾油機",
+        "hiragana": "あっさくさくゆき",
+        "english": "oil press",
+        "level": "N2"
+      },
+      {
+        "id": 240,
+        "kanji": "圧搾搾油機械",
+        "hiragana": "あっさくさくゆきかい",
+        "english": "oil pressing machine",
+        "level": "N2"
+      },
+      {
+        "id": 241,
+        "kanji": "圧搾搾油機械工業",
+        "hiragana": "あっさくさくゆきかいこうぎょう",
+        "english": "oil pressing machinery industry",
+        "level": "N2"
+      },
+      {
+        "id": 242,
+        "kanji": "圧搾搾油機械工業用",
+        "hiragana": "あっさくさくゆきかいこうぎょうよう",
+        "english": "for oil pressing machinery industry",
+        "level": "N2"
+      },
+      {
+        "id": 243,
+        "kanji": "圧搾搾油機械工業用機械",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかい",
+        "english": "machinery for oil pressing industry",
+        "level": "N2"
+      },
+      {
+        "id": 244,
+        "kanji": "圧搾搾油機械工業用機械部品",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひん",
+        "english": "parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 245,
+        "kanji": "圧搾搾油機械工業用機械部品供給",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅう",
+        "english": "supply of parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 246,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃ",
+        "english": "company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 247,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょう",
+        "english": "sales of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 248,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょ",
+        "english": "sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 249,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょう",
+        "english": "manager of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 250,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいり",
+        "english": "deputy manager of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 251,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけん",
+        "english": "deputy manager and concurrent position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 252,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょう",
+        "english": "deputy manager and concurrent sales position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 253,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうか",
+        "english": "deputy manager and concurrent sales section position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 254,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょう",
+        "english": "deputy manager and concurrent sales section chief of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 255,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさ",
+        "english": "deputy manager and concurrent assistant to sales section chief of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 256,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐兼",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさけん",
+        "english": "deputy manager and concurrent assistant to sales section chief and concurrent position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 257,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐兼営業",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさけんえいぎょう",
+        "english": "deputy manager and concurrent assistant to sales section chief and concurrent sales position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 258,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐兼営業課",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさけんえいぎょうか",
+        "english": "deputy manager and concurrent assistant to sales section chief and concurrent sales section position of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 259,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐兼営業課長",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさけんえいぎょうかちょう",
+        "english": "deputy manager and concurrent assistant to sales section chief and concurrent sales section chief of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      },
+      {
+        "id": 260,
+        "kanji": "圧搾搾油機械工業用機械部品供給会社営業所長代理兼営業課長補佐兼営業課長補佐",
+        "hiragana": "あっさくさくゆきかいこうぎょうようきかいぶひんきょうきゅうがいしゃえいぎょうしょちょうだいりけんえいぎょうかちょうほさけんえいぎょうかちょうほさ",
+        "english": "deputy manager and concurrent assistant to sales section chief and concurrent assistant to sales section chief of sales office of company supplying parts for oil pressing machinery",
+        "level": "N2"
+      }
+    ],
+    "N1": [
+      {
+        "id": 261,
+        "kanji": "阿鼻叫喚",
+        "hiragana": "あびきょうかん",
+        "english": "pandemonium",
+        "level": "N1"
+      },
+      {
+        "id": 262,
+        "kanji": "哀れ",
+        "hiragana": "あわれ",
+        "english": "pathos",
+        "level": "N1"
+      },
+      {
+        "id": 263,
+        "kanji": "哀愁",
+        "hiragana": "あいしゅう",
+        "english": "melancholy",
+        "level": "N1"
+      },
+      {
+        "id": 264,
+        "kanji": "哀訴",
+        "hiragana": "あいそ",
+        "english": "piteous appeal",
+        "level": "N1"
+      },
+      {
+        "id": 265,
+        "kanji": "哀悼",
+        "hiragana": "あいとう",
+        "english": "condolence",
+        "level": "N1"
+      },
+      {
+        "id": 266,
+        "kanji": "哀楽",
+        "hiragana": "あいがく",
+        "english": "joy and sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 267,
+        "kanji": "哀願",
+        "hiragana": "あいがん",
+        "english": "piteous request",
+        "level": "N1"
+      },
+      {
+        "id": 268,
+        "kanji": "哀歌",
+        "hiragana": "あいか",
+        "english": "elegy",
+        "level": "N1"
+      },
+      {
+        "id": 269,
+        "kanji": "哀号",
+        "hiragana": "あいごう",
+        "english": "wailing",
+        "level": "N1"
+      },
+      {
+        "id": 270,
+        "kanji": "哀鳴",
+        "hiragana": "あいめい",
+        "english": "piteous cry",
+        "level": "N1"
+      },
+      {
+        "id": 271,
+        "kanji": "哀音",
+        "hiragana": "あいおん",
+        "english": "mournful sound",
+        "level": "N1"
+      },
+      {
+        "id": 272,
+        "kanji": "哀調",
+        "hiragana": "あいちょう",
+        "english": "melancholy tone",
+        "level": "N1"
+      },
+      {
+        "id": 273,
+        "kanji": "哀絶",
+        "hiragana": "あいぜつ",
+        "english": "extreme sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 274,
+        "kanji": "哀訴",
+        "hiragana": "あいそ",
+        "english": "piteous appeal",
+        "level": "N1"
+      },
+      {
+        "id": 275,
+        "kanji": "哀傷",
+        "hiragana": "あいしょう",
+        "english": "sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 276,
+        "kanji": "哀切",
+        "hiragana": "あいせつ",
+        "english": "deeply moving",
+        "level": "N1"
+      },
+      {
+        "id": 277,
+        "kanji": "哀婉",
+        "hiragana": "あいえん",
+        "english": "tender",
+        "level": "N1"
+      },
+      {
+        "id": 278,
+        "kanji": "哀感",
+        "hiragana": "あいかん",
+        "english": "pathos",
+        "level": "N1"
+      },
+      {
+        "id": 279,
+        "kanji": "哀矜",
+        "hiragana": "あいきょう",
+        "english": "compassion",
+        "level": "N1"
+      },
+      {
+        "id": 280,
+        "kanji": "哀求",
+        "hiragana": "あいきゅう",
+        "english": "piteous request",
+        "level": "N1"
+      },
+      {
+        "id": 281,
+        "kanji": "哀泣",
+        "hiragana": "あいきゅう",
+        "english": "weeping",
+        "level": "N1"
+      },
+      {
+        "id": 282,
+        "kanji": "哀痛",
+        "hiragana": "あいつう",
+        "english": "deep sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 283,
+        "kanji": "哀苦",
+        "hiragana": "あいく",
+        "english": "bitter sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 284,
+        "kanji": "哀怜",
+        "hiragana": "あいれい",
+        "english": "compassion",
+        "level": "N1"
+      },
+      {
+        "id": 285,
+        "kanji": "哀惜",
+        "hiragana": "あいせき",
+        "english": "regret",
+        "level": "N1"
+      },
+      {
+        "id": 286,
+        "kanji": "哀恋",
+        "hiragana": "あいれん",
+        "english": "love and sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 287,
+        "kanji": "哀別",
+        "hiragana": "あいべつ",
+        "english": "sorrowful parting",
+        "level": "N1"
+      },
+      {
+        "id": 288,
+        "kanji": "哀詞",
+        "hiragana": "あいし",
+        "english": "mournful words",
+        "level": "N1"
+      },
+      {
+        "id": 289,
+        "kanji": "哀辞",
+        "hiragana": "あいじ",
+        "english": "elegy",
+        "level": "N1"
+      },
+      {
+        "id": 290,
+        "kanji": "哀吟",
+        "hiragana": "あいぎん",
+        "english": "mournful song",
+        "level": "N1"
+      },
+      {
+        "id": 291,
+        "kanji": "哀歎",
+        "hiragana": "あいたん",
+        "english": "lamentation",
+        "level": "N1"
+      },
+      {
+        "id": 292,
+        "kanji": "哀訝",
+        "hiragana": "あいが",
+        "english": "doubt",
+        "level": "N1"
+      },
+      {
+        "id": 293,
+        "kanji": "哀嘆",
+        "hiragana": "あいたん",
+        "english": "lamentation",
+        "level": "N1"
+      },
+      {
+        "id": 294,
+        "kanji": "哀鳴",
+        "hiragana": "あいめい",
+        "english": "piteous cry",
+        "level": "N1"
+      },
+      {
+        "id": 295,
+        "kanji": "哀音",
+        "hiragana": "あいおん",
+        "english": "mournful sound",
+        "level": "N1"
+      },
+      {
+        "id": 296,
+        "kanji": "哀調",
+        "hiragana": "あいちょう",
+        "english": "melancholy tone",
+        "level": "N1"
+      },
+      {
+        "id": 297,
+        "kanji": "哀絶",
+        "hiragana": "あいぜつ",
+        "english": "extreme sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 298,
+        "kanji": "哀訴",
+        "hiragana": "あいそ",
+        "english": "piteous appeal",
+        "level": "N1"
+      },
+      {
+        "id": 299,
+        "kanji": "哀傷",
+        "hiragana": "あいしょう",
+        "english": "sorrow",
+        "level": "N1"
+      },
+      {
+        "id": 300,
+        "kanji": "哀切",
+        "hiragana": "あいせつ",
+        "english": "deeply moving",
+        "level": "N1"
+      },
+      {
+        "id": 301,
+        "kanji": "哀婉",
+        "hiragana": "あいえん",
+        "english": "tender",
+        "level": "N1"
+      }
+    ]
+  }
+}
