@@ -1,1 +1,35 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>JLPT Vocabulary Learner</title>
+    
+    <base href="/JLPT_words_learner/">
+
+    <script>
+      (function() {
+        const repoPath = "/JLPT_words_learner/";
+        if (window.location.pathname.includes('JLPT_words_learner')) {
+            window.history.replaceState(null, '', window.location.pathname);
+        }
+        
+        const _fetch = window.fetch;
+        window.fetch = function() {
+          if (typeof arguments[0] === 'string' && arguments[0].startsWith('/')) {
+              arguments[0] = arguments[0].replace(/^\//, '');
+          }
+          return _fetch.apply(this, arguments);
+        };
+      })();
+    </script>
+
+    <link rel="manifest" href="manifest.json" />
+    <script type="module" crossorigin src="index-ByyZV54e.js"></script>
+    <link rel="stylesheet" crossorigin href="index-B6ykaXxV.css">
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
